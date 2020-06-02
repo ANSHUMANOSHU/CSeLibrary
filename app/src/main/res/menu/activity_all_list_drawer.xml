@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/programming"
+            android:icon="@drawable/programming"
+            android:title="Programming" />
+        <item
+            android:id="@+id/database"
+            android:icon="@drawable/database"
+            android:title="Database" />
+        <item
+            android:id="@+id/webdev"
+            android:icon="@drawable/webdev"
+            android:title="Web Development" />
+        <item
+            android:id="@+id/mobiledev"
+            android:icon="@drawable/mobdev"
+            android:title="Mobile Development" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CS Library</string>
+    <string name="title">Title</string>
+    <string name="title_activity_all_list">AllList</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="online_learning_platform">Online Learning Platform</string>
+</resources>
